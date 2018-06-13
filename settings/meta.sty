@@ -17,7 +17,7 @@
 \def\SecondReviewerFemale{0}
 
 \def\NeedDeclaration{1}
-\def\WithoutSerif{0}
+\def\WithoutSerif{1}
 
 % don't change
 
@@ -48,4 +48,5 @@
 \if\WithoutSerif1
 	\usepackage{helvet}
 	\renewcommand{\familydefault}{\sfdefault}
+	\fancyfoot[c]{\sffamily\thepage}
 \fi
